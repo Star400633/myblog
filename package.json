@@ -26,9 +26,6 @@
     "sequelize": "^5.6.1",
     "validator": "^10.11.0"
   },
-  "directories": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Star400633/myblog.git"

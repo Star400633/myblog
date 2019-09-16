@@ -51,6 +51,11 @@
   }
 
   #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
   }
 
   section, article, header, nav, ul, li, h1, h2, h3, p {
@@ -60,6 +65,10 @@
 
   li {
     list-style: none;
+  }
+
+  .router-views {
+    flex: 1;
   }
 
 </style>
